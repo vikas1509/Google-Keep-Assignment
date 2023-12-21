@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+
+
+:root{
+   
+   --background:#ffffff;
+ --shadow:#cccece;
+ --navTextColor:#5f6368;;
+ --yellow:#fbbc04;
+  }
+  
+  body {
+    margin: 0;
+    
+    background-color: var(--background);     
+    
+  }
+  /* .header{
+
+    margin: auto -10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 2px 0 var(--shadow);
+    display: flex;
+ flex-direction: row;
+   align-self: center;
+   align-items: center;
+  }
+
+  .header h3{
+    font-size: 1.5rem;
+    color: var(--navTextColor);
+    margin-left: 10px;
+  } */
+
+
+  form{
+    position: relative;
+    width: 60%;
+    margin: 4.5rem auto 2rem auto;
+    padding: 7px;
+    border-radius: 7px;
+box-shadow: 0 1px 7px  var(--shadow);
+  }
+  form input{
+    width:100%;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+  
+  }
+
+ 
+
+  form textarea{
+    width: 100%;
+    border: none;
+  padding: 4px 10px;
+    font-size: 1rem;
+    resize: none;
+  outline: none;
+  }
+
+  form button{
+    display: flex;
+    
+    align-items: center;
+    right: 18px;
+    background-color:var(--yellow) ;
+    color: var(--background); 
+
+    /* whitecolor */
+
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px vagr(--shadow);
+    cursor: pointer;
+    outline: none;
+  }
+  .addBtn-div{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .note-buttons{
+    display: flex;
+ justify-content: flex-end;
+ height: 19px;
+
+  }
+
+
+  .note{
+ 
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px var(--shadow);
+    padding: 15px;
+    margin:16px;
+    float: left;
+
+
+  }
+
+  .note h1{
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+.note p{
+font-size: 1rem;
+ margin-bottom: 10px;
+ white-space:pre-wrap;
+ word-wrap: break-word;
+
+}
+
+
+.note-boxes{
+    margin-left: 22%;
+   
+}
+
+.note input,textarea{
+    border: none;
+   
+}
+.note textarea{
+    margin-top: 1rem;
+    resize: none;
+}
+
+
+.deleteBtn{
+  
+    color: yellow;
+}
