@@ -1,4 +1,4 @@
-// Note.js
+
 import React, { useContext, useState } from 'react';
 import { NoteContext } from "../context/NoteContext";
 import { Margin } from '@mui/icons-material';

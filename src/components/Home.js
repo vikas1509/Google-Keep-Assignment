@@ -2,9 +2,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 
-//components
+
 import SwipeDrawer from './SwipeDrawer';
-import Notes from "./Note";
+
 
 
 const Home = () => {
